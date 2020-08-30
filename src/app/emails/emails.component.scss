@@ -1,0 +1,111 @@
+.card {
+    width: 500px;
+    height: 400px;
+}
+
+.list-group-item {
+    background-color: #f56f6c;
+    color: #ffffff;
+    font-size: 20px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.div-icon-email {
+    float: left;
+    margin-right: 18px;
+}
+
+.mail {
+    width: 55px;
+}
+
+.when-email {
+    font-weight: bold;
+    font-size: 20px;
+    float: right;
+}
+
+.who-email {
+    font-weight: bold;
+    font-size: 22px;
+    float: left;
+}
+
+.title-email {
+    font-size: 22px;
+    font-weight: bold;
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 75px;
+}
+
+@media all and (max-width: 499px)
+{
+    .card {
+        width: 400px;
+        height: 320px;
+    }
+    
+    .list-group-item {
+        font-size: 15px;
+        height: 80px;
+    }
+    
+    .div-icon-email {
+        margin-right: 15px;
+    }
+    
+    .mail {
+        width: 40px;
+    }
+    
+    .when-email {
+        font-size: 15px;
+    }
+    
+    .who-email {
+        font-size: 17px;
+    }
+    
+    .title-email {
+        font-size: 17px;
+        margin-top: 20px;
+        margin-left: 56px;
+    }
+}
+
+@media all and (max-width: 399px)
+{
+    .card {
+        width: 300px;
+        height: 240px;
+    }
+    
+    .list-group-item {
+        font-size: 12px;
+        height: 60px;
+    }
+    
+    .div-icon-email {
+        margin-right: 12px;
+    }
+    
+    .mail {
+        width: 30px;
+    }
+    
+    .when-email {
+        font-size: 10px;
+    }
+    
+    .who-email {
+        font-size: 10px;
+    }
+    
+    .title-email {
+        font-size: 12px;
+        margin-top: 15px;
+        margin-left: 42px;
+    }
+}

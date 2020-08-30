@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+
+@font-face {
+  font-family: Blackjar;
+  src:url(/assets/fonts/BLACKJAR.TTF);
+}
+
+@font-face {
+  font-family: New_Cicle_Fina;
+  src:url(/assets/fonts/New_Cicle_Fina.otf);
+}
+
+@font-face {
+  font-family: New_Cicle_Fina_Italic;
+  src:url(/assets/fonts/New_Cicle_Fina_Italic.otf);
+}
+
+@font-face{
+  font-family: Blackjar;
+  src:url(/assets/fonts/BLACKJAR.TTF);
+}
+
+body {
+  font-family: New_Cicle_Fina;
+}
+
+button {
+  background-color: transparent;
+  border: 0;
+}

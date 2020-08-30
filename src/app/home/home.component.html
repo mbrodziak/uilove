@@ -1,0 +1,53 @@
+<div class="card">
+    <div class="card-head">
+
+        <img src="../assets/menu.png" class="menu-button img-hover" (click)="developSideMenu()">
+
+        <img src="../assets/hearth.png" class="ui-hearth">
+
+        <div class="uilove">
+             uilove
+        </div>
+
+        <img src="../assets/BIOicon.png" class="bio img-hover">
+
+        <div class="principal">Principal</div> 
+        <div class=designer>Designer</div>
+        <div style="clear: both;"></div>
+        <div class="wbis text-center">who believe in simplicity.</div>
+        <div class="lw text-center">love with UI / GUI / UX</div>
+        
+        <div class="nr-dribbble">21</div>
+        <img src="../assets/dribbble.png" class="dribbble img-hover">
+        <img src="../assets/forrst.png" class="forrst img-hover">
+        <img src="../assets/Be.png" class="Be img-hover" >
+       
+        
+    </div>
+    <div class="class-body">   
+        <ul class="list-group list-group-flush"> 
+            <li class="list-group-item" *ngFor="let notification of notifications;" (click)="notify(notification.icon)" >
+                <div class="notification-list" id="{{ notification.icon }}">
+                    <button class="unveiled-part text-center">
+                        <div class="div-icon-notifications">
+                            <img src="../assets/{{ notification.icon | lowercase }}.png" class="icon-notifications"> 
+                        </div>
+                        <div>
+                            <div class="when-notifications">{{ notification.when }} </div>
+                            <div class="by-notifications">by: {{ notification.by }}</div>
+                            <div class="title-notifications">{{ notification.title }}</div>
+                        </div>
+                    </button>
+                    <div class="hidden-part"> 
+                        <img src="../assets/Preview.png" class="preview img-hover">
+                        <img src="../assets/Shape3.png" class="shape img-hover" *ngIf="notification.like == false" (click)="like(notification.title)">
+                        <img src="../assets/hearth.png" class="hearth img-hover" *ngIf="notification.like == true" (click)="dontLike(notification.title)">
+                        <img src="../assets/trash.png"  class="trash img-hover" (click)="delete(notification.title)">
+                    </div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+

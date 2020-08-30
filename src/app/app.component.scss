@@ -1,0 +1,100 @@
+    .img-hover, .ul-hover {
+    cursor:pointer
+  }
+
+  @mixin dis-pos-tran {
+    display: flex;
+    position: absolute;
+    transition: 0.3s transform ease-in-out;
+  }
+
+  .side-menu {
+    @include dis-pos-tran;
+  
+    left: -450px;
+    
+  }
+  
+  .home {
+    @include dis-pos-tran;
+  
+    left: 0px;
+    margin: 0px;
+  }
+  
+  .emails {
+    position: absolute;
+    left: -500px;
+    margin-top: 394px;
+    transition: 0.3s transform ease-in-out;
+  }
+  
+  .develop-side-menu {
+    transform: translateX(450px);
+  }
+  
+  .develop-list-email {
+    transform: translateX(500px);
+  }
+  
+  .roll-side-menu {
+    transform: translateX(0px);
+  }
+
+  @media all and (max-width: 499px)
+  {
+
+    .side-menu {
+      @include dis-pos-tran;
+    
+      left: -350px; 
+    }
+  
+    .emails {
+      left: -400px;
+      margin-top: 316px;
+      transition: 0.3s transform ease-in-out;
+    }
+    
+    .develop-side-menu {
+      transform: translateX(350px);
+    }
+    
+    .develop-list-email {
+      transform: translateX(400px);
+    }
+    
+    .roll-side-menu {
+      transform: translateX(0px);
+    }
+  }
+
+
+  @media all and (max-width: 399px)
+  {
+
+    .side-menu {
+      @include dis-pos-tran;
+    
+      left: -250px;
+    }
+  
+    .emails {
+      position: absolute;
+      left: -300px;
+      margin-top: 236px;
+      transition: 0.3s transform ease-in-out;
+    }
+    
+    .develop-side-menu {
+      transform: translateX(250px);
+    }
+    
+    .develop-list-email {
+      transform: translateX(300px);
+    }
+    
+    .roll-side-menu {
+      transform: translateX(0px);
+    }
+  }

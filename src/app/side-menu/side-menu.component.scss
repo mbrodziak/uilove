@@ -1,0 +1,233 @@
+$background: #252932;
+$text-color: #ffffff;
+$nr-background-color: #797d86;
+$li-color: #9ca0a9;
+$lw-color: #f56f6c;
+$li-hover-background: #1c2127;
+
+
+.card {
+    background-color: $background;
+    width: 450px;
+    height: 800px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.profile {
+    padding-top: 35px; 
+    padding-bottom: 50px;
+}
+
+.outline {
+    width: 192px;
+    height: 186px;
+}
+
+.avatar {
+    width: 171px;
+    height: 165px;
+    margin-left: -181.5px;
+}
+
+.designer {
+    color: $text-color;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.lw {
+    color: $lw-color;
+    font-size: 17px;
+    margin-top: -7px;
+}
+
+.edit {
+    width: 18px;
+    margin-left: 15px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+li {
+    background-color: $background;
+    color: $li-color; 
+    font-size: 25px;
+    cursor: pointer;
+}
+
+li:hover {
+    background-color: $li-hover-background;
+    color: $text-color;    
+}
+
+.li-icon {
+    width: 35px;
+    margin-right: 25px;
+}
+
+.nr {
+    position: absolute;
+    background-color: $nr-background-color;
+    color: $text-color;
+    font-weight: bold;
+    border-radius: 15px;
+    width: 40px;
+    height: 30px;
+    margin-left: 360px;
+    margin-top: -35px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.li-exit {
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.exit {
+    width: 55px;
+}
+
+@media all and (max-width: 499px)
+{
+    .card {
+        width: 350px;
+        height: 640px;
+    }
+    
+    .profile {
+        padding-top: 15px; 
+        padding-bottom: 30px;
+    }
+    
+    .outline {
+        width: 167px;
+        height: 161px;
+    }
+    
+    .avatar {
+        width: 146px;
+        height: 139px;
+        margin-left: -156.5px;
+    }
+    
+    .designer {
+        font-size: 20px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    
+    .lw {
+        color: $lw-color;
+        font-size: 15px;
+        margin-top: -7px;
+    }
+    
+    li {
+        font-size: 20px;
+    }
+    
+    .li-icon {
+        width: 20px;
+        margin-right: 20px;
+    }
+    
+    .nr {
+        position: absolute;
+        background-color: $nr-background-color;
+        color: $text-color;
+        font-weight: bold;
+        border-radius: 15px;
+        width: 35px;
+        height: 25px;
+        margin-left: 260px;
+        margin-top: -30px;
+        font-size: 17px;
+        text-align: center;
+    }
+    
+    .li-exit {
+        padding-top: 25px;
+        padding-bottom: 15px;
+    }
+    
+    .exit {
+        width: 30px;
+    }
+}
+
+@media all and (max-width: 399px)
+{
+    .card {
+        width: 250px;
+        height: 480px;
+    }
+    
+    .profile {
+        padding-top: 10px; 
+        padding-bottom: 25px;
+    }
+    
+    .outline {
+        width: 122px;
+        height: 116px;
+    }
+    
+    .avatar {
+        width: 101px;
+        height: 94px;
+        margin-left: -111.5px;
+    }
+    
+    .designer {
+        font-size: 13px;
+        font-weight: bold;
+        margin-top: 5px;
+    }
+    
+    .lw {
+        color: $lw-color;
+        font-size: 10px;
+        margin-top: -4px;
+    }
+       
+    .edit {
+        width: 14px;
+        margin-left: 15px;
+        margin-top: 12px;
+    }
+    
+    li {
+        font-size: 12px;
+    }
+    
+    .li-icon {
+        width: 15px;
+        margin-right: 12px;
+    }
+    
+    .nr {
+        position: absolute;
+        background-color: $nr-background-color;
+        color: $text-color;
+        font-weight: bold;
+        border-radius: 15px;
+        width: 25px;
+        height: 15px;
+        margin-left: 180px;
+        margin-top: -20px;
+        font-size: 11px;
+        text-align: center;
+    }
+    
+    .li-exit {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+    .exit {
+        width: 20px;
+    }
+}

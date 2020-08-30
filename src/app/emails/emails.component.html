@@ -1,0 +1,19 @@
+<div class="card">
+    <div class="class-body">  
+        <ul class="list-group list-group-flush"> 
+            <li class="list-group-item" *ngFor="let email of emails;">
+                <div class="div-icon-email ">
+                    <img src="../assets/mail.png" class="mail"> 
+                </div>
+                <div>
+                    <div class="who-email">{{ email.who }} </div>
+                    <div class="when-email">{{ email.when }}</div>
+                    <div class="title-email">{{ email.title }}</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+

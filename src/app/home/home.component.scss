@@ -1,0 +1,556 @@
+$primary: #f56f6c; 
+$text-color: #ffffff;
+
+.card {
+    width: 500px;
+    height: 800px;
+}
+
+.card-head {
+    background-image: url(/assets/Layer1.png);
+    height: 400px;
+    width: 500px;
+}
+
+.ui-hearth {
+    margin-left: 140px;
+    margin-top: 20px;
+    width: 30px;
+}
+
+.uilove {
+    color: $text-color;
+    font-family: Blackjar;
+    margin-left: 235px;
+    margin-top: -40px;
+    font-size: 32px;
+}
+
+.menu-button {
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.principal {
+    font-family: Blackjar;
+    color: $text-color;
+    margin-top: 65px;
+    margin-left: 88px;
+    font-size: 50px;
+    float: left;
+}
+
+.designer {
+    font-family: Blackjar;
+    color: $primary; 
+    margin-top: 65px;
+    margin-left: 10px;
+    font-size: 50px;
+    float: left;
+}
+
+.wbis {
+    color: $text-color;
+    font-size: 22px;
+}
+
+.lw {
+    color: $primary; 
+    font-size: 18px;
+    margin-top: -10px;
+}
+
+.bio {
+   margin-left: 440px;
+   margin-top: -80px;
+   width: 30px;
+}
+
+.nr-dribbble {
+    position: absolute;
+    background-color: $primary; 
+    color: $text-color;
+    border-radius: 5px;
+    width: 30px;
+    height: 25px;
+    margin-left: 170px;
+    margin-top: 55px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.dribbble {
+    margin-left: 150px;
+    margin-top: 70px;
+    width: 30px;
+}
+
+.forrst {
+    margin-left: 60px;
+    margin-top: 70px;
+    width: 30px;
+}
+
+.Be {
+    margin-top: 70px;
+    margin-left: 40px;
+    width: 30px;
+}
+
+.class-body {
+    background-color: $primary; 
+}
+
+.list-group-item {
+    padding: 0;
+}
+
+.notification-list {
+    transition: 0.3s transform ease-in-out;
+    width: 750px;
+    height: 100px;
+}
+
+.unveiled-part {
+    float: left;
+    background-color: $primary; 
+    color: $text-color;
+    width: 500px;
+    height: 100px;
+}
+
+.hidden-part {
+    float: left;
+    background-image: url(/assets/Layer2.png);
+    transition: 0.3s transform ease-in-out;
+    width: 250px;
+    height: 100px;
+}
+
+.div-icon-notifications{
+    float: left;
+    width: 100px;
+}
+
+.when-notifications {
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 16px;
+    margin-right: 15px; 
+    float: left;
+    left: 50px;
+}
+
+.by-notifications {
+    margin-top: -5px;
+    font-weight: bold;
+    font-size: 16px;
+    float: left;
+}
+
+.title-notifications {
+    font-size: 20px;
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 100px;
+}
+
+
+.showInteraction {
+    transform: translateX(-250px);
+}
+
+
+.preview {
+    margin-left: 45px;
+    margin-top: 35px;
+    width: 35px;
+}
+
+.shape {
+    margin-left: 40px;
+    margin-top: 35px;
+    width: 30px;
+}
+
+.hearth {
+    margin-left: 40px;
+    margin-top: 35px;
+    width: 30px;
+}
+
+.trash {
+    margin-left: 40px;
+    margin-top: 35px;
+    width: 25px;
+}
+
+.img-hover, .ul-hover {
+    cursor:pointer
+}
+
+
+@media all and (max-width: 499px)
+{
+    .card {
+        width: 400px;
+        height: 640px;
+    }
+    
+    .card-head {
+        background-image: url(/assets/Layer1400.png);
+        height: 320px;
+        width: 400px;
+    }
+    
+    .ui-hearth {
+        margin-left: 100px;
+        margin-top: 15px;
+        width: 25px;
+    }
+    
+    .uilove {
+        color: $text-color;
+        font-family: Blackjar;
+        margin-left: 175px;
+        margin-top: -35px;
+        font-size: 28px;
+    }
+    
+    .menu-button {
+        margin-left: 20px;
+        margin-top: 10px;
+        width: 25px;
+    }
+    
+    .principal {
+        font-family: Blackjar;
+        color: $text-color;
+        margin-top: 40px;
+        margin-left: 70px;
+        font-size: 40px;
+        float: left;
+    }
+    
+    .designer {
+        font-family: Blackjar;
+        color: $primary; 
+        margin-top: 40px;
+        margin-left: 10px;
+        font-size: 40px;
+        float: left;
+    }
+    
+    .wbis {
+        color: $text-color;
+        font-size: 18px;
+    }
+    
+    .lw {
+        color: $primary; 
+        font-size: 16px;
+        margin-top: -8px;
+    }
+    
+    .bio {
+       margin-left: 360px;
+       margin-top: -70px;
+       width: 25px;
+    }
+    
+    .nr-dribbble {
+        position: absolute;
+        background-color: $primary; 
+        color: $text-color;
+        border-radius: 5px;
+        width: 25px;
+        height: 20px;
+        margin-left: 142px;
+        margin-top: 53px;
+        font-size: 13px;
+        text-align: center;
+    }
+    
+    .dribbble {
+        margin-left: 125px;
+        margin-top: 65px;
+        width: 25px;
+    }
+    
+    .forrst {
+        margin-left: 45px;
+        margin-top: 60px;
+        width: 25px;
+    }
+    
+    .Be {
+        margin-top: 58px;
+        margin-left: 25px;
+        width: 25px;
+    }
+    
+    .class-body {
+        background-color: $primary; 
+    }
+    
+    .notification-list {
+        transition: 0.3s transform ease-in-out;
+        width: 600px;
+        height: 80px;
+    }
+    
+    .unveiled-part {
+        float: left;
+        background-color: $primary; 
+        color: $text-color;
+        width: 400px;
+        height: 80px;
+    }
+    
+    .hidden-part {
+        float: left;
+        background-image: url(/assets/Layer2200.png);
+        transition: 0.3s transform ease-in-out;
+        width: 200px;
+        height: 80px;
+    }
+    
+    .div-icon-notifications{
+        float: left;
+        width: 80px;
+    }
+    
+    .when-notifications {
+        margin-top: -5px;
+        font-weight: bold;
+        font-size: 13px;
+        margin-right: 15px; 
+        float: left;
+        left: 50px;
+    }
+    
+    .by-notifications {
+        margin-top: -5px;
+        font-weight: bold;
+        font-size: 13px;
+        float: left;
+    }
+    
+    .title-notifications {
+        font-size: 17px;
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 80px;
+    }
+    
+    
+    .showInteraction {
+        transform: translateX(-200px);
+    }
+    
+    .preview {
+        margin-left: 35px;
+        margin-top: 30px;
+        width: 25px;
+    }
+    
+    .shape {
+        margin-left: 35px;
+        margin-top: 30px;
+        width: 25px;
+    }
+    
+    .hearth {
+        margin-left: 35px;
+        margin-top: 30px;
+        width: 25px;
+    }
+    
+    .trash {
+        margin-left: 35px;
+        margin-top: 30px;
+        width: 20px;
+    }
+}
+
+@media all and (max-width: 399px)
+{
+    .card {
+        width: 300px;
+        height: 480px;
+    }
+    
+    .card-head {
+        background-image: url(/assets/Layer1300.png);
+        height: 240px;
+        width: 300px;
+    }
+    
+    .ui-hearth {
+        margin-left: 90px;
+        margin-top: 15px;
+        width: 15px;
+    }
+    
+    .uilove {
+        color: $text-color;
+        font-family: Blackjar;
+        margin-left: 135px;
+        margin-top: -28px;
+        font-size: 22px;
+    }
+    
+    .menu-button {
+        margin-left: 10px;
+        margin-top: 5px;
+        width: 20px;
+    }
+    
+    .principal {
+        font-family: Blackjar;
+        color: $text-color;
+        margin-top: 25px;
+        margin-left: 55px;
+        font-size: 28px;
+        float: left;
+    }
+    
+    .designer {
+        font-family: Blackjar;
+        color: $primary; 
+        margin-top: 25px;
+        margin-left: 10px;
+        font-size: 28px;
+        float: left;
+    }
+    
+    .wbis {
+        color: $text-color;
+        font-size: 13px;
+    }
+    
+    .lw {
+        color: $primary; 
+        font-size: 10px;
+        margin-top: -2px;
+    }
+    
+    .bio {
+       margin-left: 270px;
+       margin-top: -60px;
+       width: 20px;
+    }
+    
+    .nr-dribbble {
+        position: absolute;
+        background-color: $primary; 
+        color: $text-color;
+        border-radius: 5px;
+        width: 20px;
+        height: 15px;
+        margin-left: 108px;
+        margin-top: 45px;
+        font-size: 10px;
+        text-align: center;
+    }
+    
+    .dribbble {
+        margin-left: 95px;
+        margin-top: 45px;
+        width: 20px;
+    }
+    
+    .forrst {
+        margin-left: 28px;
+        margin-top: 41px;
+        width: 20px;
+    }
+    
+    .Be {
+        margin-top: 42px;
+        margin-left: 21px;
+        width: 20px;
+    }
+    
+    .class-body {
+        background-color: $primary; 
+    }
+    
+    .notification-list {
+        transition: 0.3s transform ease-in-out;
+        width: 450px;
+        height: 60px;
+    }
+    
+    .unveiled-part {
+        float: left;
+        background-color: $primary; 
+        color: $text-color;
+        width: 300px;
+        height: 60px;
+    }
+    
+    .hidden-part {
+        float: left;
+        background-image: url(/assets/Layer2150.png);
+        transition: 0.3s transform ease-in-out;
+        width: 150px;
+        height: 60px;
+    }
+    
+    .div-icon-notifications{
+        float: left;
+        width: 60px;
+    }
+    
+    .when-notifications {
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 10px;
+        margin-right: 15px; 
+        float: left;
+        left: 50px;
+    }
+    
+    .by-notifications {
+        margin-top: 5px;
+        font-weight: bold;
+        font-size: 10px;
+        float: left;
+    }
+    
+    .title-notifications {
+        font-size: 12px;
+        position: absolute;
+        margin-top: 20px;
+        margin-left: 60px;
+    }
+    
+    .showInteraction {
+        transform: translateX(-150px);
+    }
+    
+    .preview {
+        margin-left: 30px;
+        margin-top: 25px;
+        width: 20px;
+    }
+    
+    .shape {
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 20px;
+    }
+    
+    .hearth {
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 20px;
+    }
+    
+    .trash {
+        margin-left: 25px;
+        margin-top: 25px;
+        width: 15px;
+    }
+}
